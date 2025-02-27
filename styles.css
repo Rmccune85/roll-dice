@@ -80,26 +80,37 @@ button:hover {
         padding: 10px;
     }
 
-    .dice-display {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        justify-items: center;
-    }
+  .dice-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
 
-    .dice-face {
-        text-align: center;
-        width: 80px;
-    }
+.dice-face {
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
 
-    .dice-face img {
-        width: 100%;
-        height: auto;
-    }
+.dice-face img {
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    .dice-face span {
-        display: block;
-        font-size: 14px;
+.dice-face span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
     }
 }
 
