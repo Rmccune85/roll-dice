@@ -31,5 +31,8 @@ function clearResults() {
     }
     document.getElementById('numRolls').value = "";
 }
+// 📌 Signature  
 // ───── ByteShifter ─────  
 // Crafted with 💻 & ☕  
+
+
