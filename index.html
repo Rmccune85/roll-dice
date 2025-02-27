@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <p>Click "Roll Dice" to roll all 6 dice and see the frequency of each face:</p>
+        <input type="number" id="numRolls" placeholder="Number of rolls" min="1">
+        <button onclick="rollAllDice()">Roll Dice!</button>
+        <button onclick="clearResults()">Clear</button>
+        
+        <div class="dice-display">
+            <div class="dice-face">
+                <img src="images/dice1.jpg" alt="Face 1" id="dice1">
+                <span id="count1">0</span>
+            </div>
+            <div class="dice-face">
+                <img src="images/dice2.jpg" alt="Face 2" id="dice2">
+                <span id="count2">0</span>
+            </div>
+            <div class="dice-face">
+                <img src="images/dice3.jpg" alt="Face 3" id="dice3">
+                <span id="count3">0</span>
+            </div>
+            <div class="dice-face">
+                <img src="images/dice4.jpg" alt="Face 4" id="dice4">
+                <span id="count4">0</span>
+            </div>
+            <div class="dice-face">
+                <img src="images/dice5.jpg" alt="Face 5" id="dice5">
+                <span id="count5">0</span>
+            </div>
+            <div class="dice-face">
+                <img src="images/dice6.jpg" alt="Face 6" id="dice6">
+                <span id="count6">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+// ───── ByteShifter ─────  
+// Crafted with 💻 & ☕   
