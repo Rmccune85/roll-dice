@@ -68,6 +68,38 @@ button:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+/* ===========================
+   Dice Game Mobile Layout Fix
+=========================== */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dice-display {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .dice-face {
+        text-align: center;
+        width: 80px;
+    }
+
+    .dice-face img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dice-face span {
+        display: block;
+        font-size: 14px;
+    }
+}
+
 /* 📌 Signature  
 // ───── ByteShifter ─────  
 // Crafted with 💻 & ☕  */
