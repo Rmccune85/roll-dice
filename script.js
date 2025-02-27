@@ -19,7 +19,7 @@ function rollAllDice() {
 
     // Display dice images and results
     for (let i = 0; i < counts.length; i++) {
-        document.getElementById(`dice${i + 1}`).src = `images/dice${i + 1}.jpg`;
+        document.getElementById(`dice${i + 1}`).src = `dice${i + 1}.jpg`;
         document.getElementById(`count${i + 1}`).innerText = counts[i];
     }
 }
